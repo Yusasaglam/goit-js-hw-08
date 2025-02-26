@@ -30,3 +30,10 @@
         .gallery-item img:hover {
             transform: scale(1.1);
         }
+        .basicLightbox {
+            z-index: 1000 !important;
+            position:absolute;
+            right: 6.5%;
+            bottom: 26%;
+
+        }

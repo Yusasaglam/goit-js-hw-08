@@ -29,7 +29,7 @@ function onGalleryClick(event) {
     if (event.target.nodeName !== "IMG") return;
     
     const largeImageURL = event.target.dataset.source;
-    const instance = basicLightbox.create(`<img src="${largeImageURL}" width="800" height="600">`);
+    const instance = basicLightbox.create(`<img class="basicLightbox" src="${largeImageURL}" width="1300" height="600">`);
     instance.show();
     
     document.addEventListener("keydown", (e) => {
